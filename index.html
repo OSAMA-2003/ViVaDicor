@@ -1,0 +1,419 @@
+<!-- @format -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- CSS styles -->
+    <link rel="stylesheet" href="./style.css" />
+    <!-- Fontawesome icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Talwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Title -->
+    <link rel="icon" href="./imgs/Logo3.png" >
+    <title>ViVaDicor</title>
+  </head>
+  <body >
+    <!-- Navbar -->
+    <nav class=" px-4 sm:px-6 lg:px-32">
+      <div class="max-w-7xl mx-auto">
+        <div class="flex justify-between items-center h-16">
+          <!-- Logo -->
+          <div class="">
+            <img width="140" src="./imgs/Logo.png" alt="" />
+          </div>
+
+          <!-- Nav Links -->
+          <div class="hidden md:flex space-x-6 items-center">
+            <a href="#header" class="text-gray-900 hover:text-gray-400 font-bold"
+              >Home</a
+            >
+            <a href="#services" class="text-gray-600 hover:text-gray-400 font-bold"
+              >Services</a
+            >
+            <a href="#about" class="text-gray-600 hover:text-gray-400 font-bold"
+              >About</a
+            >
+            <a href="#support" class="text-gray-600 hover:text-gray-400 font-bold"
+              >Support</a
+            >
+          </div>
+
+          <div class="hidden md:flex">
+            <!-- Sign In Button -->
+            <a
+              href="#"
+              class="bg-neutral-900 text-white px-8 py-2 rounded-md hover:bg-gray-700 transition"
+              >Sign Up</a
+            >
+          </div>
+
+          <!-- Hamburger Menu -->
+          <button id="menu-btn" class="md:hidden text-2xl">
+            <i class="fas fa-bars"></i>
+          </button>
+        </div>
+      </div>
+
+      <!-- Mobile Menu -->
+      <div
+        id="mobile-menu"
+        class="hidden md:hidden space-y-2 bg-white shadow-md"
+      >
+        <a href="#header" class="block px-4 py-2 text-gray-700 hover:bg-gray-200"
+          >Home</a
+        >
+        <a href="#services" class="block px-4 py-2 text-gray-700 hover:bg-gray-200"
+          >Services</a
+        >
+        <a href="#about" class="block px-4 py-2 text-gray-700 hover:bg-gray-200"
+          >About</a
+        >
+        <a href="#support" class="block px-4 py-2 text-gray-700 hover:bg-gray-200"
+          >Support</a
+        >
+        <a
+          href="#"
+          class="block px-4 py-2 bg-neutral-900 text-white text-center rounded-lg hover:bg-grey-700 transition"
+          >Sign Up</a
+        >
+      </div>
+    </nav>
+
+    <!-- Header -->
+
+    <header id="header" class=" mt-[4em] md:mt-[8em] px-4 sm:px-6 lg:px-32">
+      <div class="container-1 flex flex-col md:flex-row justify-between gap-20">
+        <div class="content md:w-[70%]">
+          <h1 class="text-[70px] md:text-[100px] font-[500]">
+            Interior Design
+          </h1>
+          <p class="md:text-[22px] font-[500] mt-8 md:pr-32">
+            Step into a world where the art of Interior Design is meticulously
+            crafted to bring together timeless elegance and cutting-edge modern
+            Innovation, Allowing you to transform your living spaces into the
+            epitome of luxury and sophistication
+          </p>
+        </div>
+        <div>
+          <img class="md:w-[500px]" src="./imgs/Image 1.png" alt="decor1" />
+        </div>
+      </div>
+
+      <div class="container-2 mt-10 md:flex">
+        <div class="content-2">
+          <div>
+            <button
+              href="#"
+              class="bg-neutral-900 text-white px-14 py-4 rounded-sm hover:bg-gray-700 transition"
+            >
+              Start Project
+            </button>
+          </div>
+
+          <div
+            class="flex justify-between text-center gap-12 md:w-[50%] mt-20 mb-10 md:mb-0"
+          >
+            <div class="flex flex-col text-center">
+              <p class="text-gray-600 font-[400] text-[32px] md:text-[70px]">
+                400+
+              </p>
+              <p class="text-gray-600 font-[400] text-[12px]">
+                Project Complete
+              </p>
+            </div>
+            <div class="flex flex-col text-center">
+              <p class="text-gray-600 font-[400] text-[35px] md:text-[70px]">
+                600+
+              </p>
+              <p class="text-gray-600 font-[400] text-[12px]">
+                Satisfied Clients
+              </p>
+            </div>
+            <div class="flex flex-col text-center">
+              <p class="text-gray-600 font-[400] text-[32px] md:text-[70px]">
+                100+
+              </p>
+              <p class="text-gray-600 font-[400] text-[12px]">Unique Styles</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="relative">
+          <img
+            class="w-full max-w-[600px] md:ml-10 z-10 rounded-sm"
+            src="./imgs/Image 2.png"
+            alt="decor2"
+          />
+          <div
+            class="hidden md:block w-40 h-40 bg-white border-[2px] border-black -top-8 left-0 absolute -z-10 rounded-sm"
+          ></div>
+          <div
+            class="w-14 h-14 md:w-32 md:h-32 bg-neutral-900 absolute -bottom-10 md:bottom-0 -right-4 md:-right-20 rounded-sm flex justify-center items-center"
+          >
+            <i
+              class="fa-solid text-[1em] md:text-[2em] fa-arrow-down text-white"
+            ></i>
+          </div>
+        </div>
+      </div>
+    </header>
+
+
+<!-- Services -->
+    <section id="services" class="services px-4 sm:px-6 lg:px-32">
+      <div class="max-w-7xl mx-auto px-4">
+        <h2 class="text-4xl md:text-5xl font-bold text-neutral-900 mb-12 md:mb-20 flex items-center gap-2">
+          <span class="w-12 h-0.5 bg-gray-800"></span> Our Services
+        </h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div class="text-start flex gap-5">
+            <img src="./imgs/service_1.png" alt="Lighting Design" class="mx-auto w-14 h-14 mb-4">
+           <div>
+            <h3 class="text-xl font-bold text-gray-800 mb-2">Lighting Design</h3>
+            <p class="text-gray-600">Achieve the perfect balance of ambient, task, and accent lighting for a functional atmosphere.</p>
+           </div>
+          </div>
+    
+          <div class="text-start flex gap-5">
+            <img src="./imgs/service_2.png" alt="Interior Design" class="mx-auto w-14 h-14  mb-4">
+          <div>
+            <h3 class="text-xl font-bold text-gray-800 mb-2">Interior Design</h3>
+            <p class="text-gray-600">From concept to completion, we oversee every detail to bring your vision to life efficiently.</p>
+          
+          </div> 
+          </div>
+    
+          
+          <div class="text-start flex gap-5">
+            <img src="./imgs/service_3.png" alt="Outdoor Design" class="mx-auto w-14 h-14  mb-4">
+          <div>
+            <h3 class="text-xl font-bold text-gray-800 mb-2">Outdoor Design</h3>
+            <p class="text-gray-600">Celebrate the changing seasons with our seasonal outdoor decor services.</p>
+         
+          </div>  
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+    <!-- Mask Group 1  -->
+
+    <section class="mask-group px-4 sm:px-6 lg:px-32">
+      <div class="max-w-7xl mx-auto  grid grid-cols-1 md:grid-cols-2 gap-14 items-center">
+        <!-- Image Section -->
+        <div>
+          <img src="./imgs/Mask group.png" alt="Interior Design" class="w-full rounded-lg">
+        </div>
+    
+        <!-- Text Section -->
+        <div >
+          <h2 class=" text-4xl md:text-5xl font-bold text-neutral-900 mb-10">Designing Your Dream<br> With Brilliance</h2>
+          <p class="text-gray-600 mb-14 text-[20px]">Elevate your spaces with bespoke interior designs that reflect your unique style and aspirations, crafted with precision and brilliance for an unforgettable living experience.</p>
+    
+          <!-- Services List -->
+          <div class="space-y-10 mb-20">
+            <div class="flex justify-between items-center border-b pb-2">
+              <h3 class="text-lg font-semibold text-gray-800">Living Room Interior Design</h3>
+              <span class="text-4xl font-bold cursor-pointer">+</span>
+            </div>
+            <div class="flex justify-between items-center border-b pb-2">
+              <h3 class="text-lg font-semibold text-gray-800">Commercial Office Room Interior Design</h3>
+              <span class="text-4xl font-bold cursor-pointer">+</span>
+            </div>
+          </div>
+    
+          <!-- Learn More Button -->
+          <button class="bg-neutral-900 text-white px-14 py-4 rounded-sm hover:bg-gray-700 transition">Learn More</button>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Mask group 2 -->
+
+
+    <section id="about" class="  gap-20 flex flex-col md:flex-row items-center px-4 sm:px-6 lg:px-32">
+      <div class="w-full md:w-1/2 space-y-12">
+          <h2 class="text-4xl md:text-5xl font-bold">Designing Your Dream in Three Simple Steps</h2>
+
+          <div class="flex items-start space-x-4">
+              <div class="text-2xl   rounded-full    bg-neutral-800"><i class="fas fa-rocket text-white px-3 py-3"></i></div>
+              <div>
+                  <h3 class="text-xl font-semibold">Start Project</h3>
+                  <p>Embark on your design adventure by initiating your project. Share your vision and set the stage for a bespoke design experience.</p>
+              </div>
+          </div>
+
+          <div class="flex items-start space-x-4">
+              <div class="text-2xl   rounded-full    bg-neutral-800"><i class="fa-solid fa-lightbulb text-white  p-4"></i></div>
+              <div>
+                  <h3 class="text-xl font-semibold">Craft</h3>
+                  <p>Collaborate closely to achieve design excellence, refining your vision and crafting brilliance into every aspect of your space.</p>
+              </div>
+          </div>
+
+          
+          <div class="flex items-start space-x-4">
+              <div class="text-2xl rounded-full bg-neutral-800"><i class="fas fa-check-circle px-3 py-3 text-white"></i>  </div>
+              <div>
+                  <h3 class="text-xl font-semibold">Execute</h3>
+                  <p>Witness your vision becoming a reality as we execute the design plan with precision. Celebrate the joy of your newly transformed space.</p>
+              </div>
+          </div>
+      </div>
+
+     
+      <div class="w-full md:mx-24 end-0 md:w-1/2 mt-8 md:mt-0">
+          <img src="./imgs/Image.png" alt="Interior Design" class="w-full rounded-lg shadow-lg">
+      </div>
+  </section>
+
+
+  <!-- Testimonials -->
+
+
+  <section class="bg-white px-4 sm:px-6 lg:px-32 ">
+    <div class="max-w-7xl mx-auto">
+      <div class="absolute">
+        <img class= " hidden md:block max-w-[500px]" src="./imgs/test.png" alt="">
+      </div>
+      <h2 class=" text-[42px]  md:text-end font-bold text-gray-900 mb-10 md:pt-10 md:pl-[12em] ">What Our Customers Say About Us</h2>
+      
+      <div class="grid md:grid-cols-2 gap-8 md:pl-44 ">
+        
+        <!-- Testimonial 1 -->
+        <div class="bg-neutral-900 text-white p-4 md:p-8 rounded-lg flex flex-col justify-between">
+          <span class="text-[100px] md:text-[150px]">&ldquo;</span>
+          <p class="text-lg leading-relaxed mb-14">
+            Working with your design team was an absolute pleasure. The attention to detail and creativity exceeded my expectations. Thank you for making my home beautiful!
+          </p>
+          <div class="flex items-center gap-4">
+            <img src="./imgs/test-1.png" alt="Sophie Carter" class="w-12 h-12 rounded-full">
+            <div>
+              <p class="font-bold">Peter Barker</p>
+              <p class="text-sm">New York, USA</p>
+            </div>
+          </div>
+        </div>
+  
+        <!-- Testimonial 2 -->
+        <div class="bg-neutral-900 text-white p-8 rounded-lg hidden md:flex flex-col justify-between">
+          <span class="text-[150px]">&ldquo;</span>
+          <p class="text-lg leading-relaxed mb-14">
+            Exceptional service! From the initial consultation to the final reveal, your team demonstrated professionalism and a keen eye for design. Highly recommend!
+          </p>
+          <div class="flex items-center gap-4">
+            <img src="./imgs/test-1.png" alt="James Bennett" class="w-12 h-12 rounded-full">
+            <div>
+              <p class="font-bold">James Bennett</p>
+              <p class="text-sm">Toronto, Canada</p>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <!-- Navigation Arrows -->
+      <div class="flex justify-start gap-10 mt-10 md:mt-0">
+        <button class="w-10 h-10 flex items-center justify-center border rounded-lg">
+          <i class="fas fa-arrow-left"></i>
+        </button>
+        <button class="w-10 h-10 flex items-center justify-center border rounded-lg">
+          <i class="fas fa-arrow-right"></i>
+        </button>
+      </div>
+    </div>
+  </section>
+  
+
+
+<!-- Newsletter Section -->
+<section id="support" class="bg-white text-center !mt-0 p-4 sm:px-6 lg:px-32 relative min-h-[30vh] md:min-h-[20vh]">
+  <div class="p-4  absolute w-full -bottom-40 left-1/2 transform -translate-x-1/2 ">
+    <h2 class=" text-4xl md:text-5xl font-bold mb-8">Subscribe to Our Newsletter<br>for Design Insights</h2>
+  <p class="text-gray-600 mb-8">Be the first to discover trends, inspirations, and special offers as<br>we bring the world of design directly to your inbox</p>
+  <form class="flex justify-center items-center max-w-lg mx-auto relative">
+    <input type="email" placeholder="Enter your email address" class="w-full p-4 border border-gray-300 rounded-sm focus:outline-none">
+    <button type="submit" class="bg-neutral-900 text-white px-4 md:px-8 py-3 rounded-sm absolute right-3">Subscribe</button>
+  </form>
+  </div>
+</section>
+
+
+
+
+<!-- Footer Section -->
+<footer class="bg-neutral-900 text-white py-12 !px-0 ">
+  <div class="grid grid-cols-1 md:grid-cols-4 gap-8 px-6   ">
+    <!-- Logo & Social Media -->
+    <div>
+      <img src="./imgs/Logo2.png" class="mb-5" alt="logo">
+      <p class="text-gray-400 mb-4">Your premier destination for luxury and modern interior design</p>
+      <div class="flex space-x-4">
+        <a href="#" class="text-gray-400 hover:text-white"><i class="fab fa-facebook-f"></i></a>
+        <a href="#" class="text-gray-400 hover:text-white"><i class="fab fa-twitter"></i></a>
+        <a href="#" class="text-gray-400 hover:text-white"><i class="fab fa-instagram"></i></a>
+        <a href="#" class="text-gray-400 hover:text-white"><i class="fab fa-linkedin-in"></i></a>
+      </div>
+    </div>
+    
+    <!-- Services -->
+    <div>
+      <h4 class="text-xl font-bold mb-4">Our Services</h4>
+      <ul class="text-gray-400 space-y-2">
+        <li>Interior design</li>
+        <li>Outdoor design</li>
+        <li>Lighting design</li>
+        <li>Office design</li>
+      </ul>
+    </div>
+    <div>
+      <h4 class="text-xl font-bold mb-4">Our Services</h4>
+      <ul class="text-gray-400 space-y-2">
+        <li>Reviews</li>
+        <li>Careers</li>
+        <li>Pricing</li>
+        <li>Press inquires</li>
+      </ul>
+    </div>
+
+    <!-- Contact Info -->
+    <div>
+      <h4 class="text-xl font-bold mb-4">Contact Us</h4>
+      <p class="text-gray-400">info@vivadecor.com</p>
+      <p class="text-gray-400">Design Avenue Cityville,<br>CA 90210 United States</p>
+    </div>
+  </div>
+</footer>
+
+
+  
+    
+
+
+
+
+
+
+
+    <!--toggling menu -->
+    <script>
+      const menuBtn = document.getElementById("menu-btn");
+      const mobileMenu = document.getElementById("mobile-menu");
+
+      menuBtn.addEventListener("click", () => {
+        mobileMenu.classList.toggle("hidden");
+      });
+    </script>
+  </body>
+</html>
